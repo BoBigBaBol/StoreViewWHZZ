@@ -18,30 +18,45 @@
 	<div class="uk-position-relative">
     	<img src="imges/light.jpg" alt="">
     	<div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="mode: click">
             <div class="uk-navbar-left">
-            <a class="uk-navbar-item uk-logo" style="margin-left: 20px" href="#">屋合之众的LOGO</a>
-                <ul class="uk-navbar-nav" style="position: absolute; right: 20px">
+            <a class="uk-navbar-item uk-logo" style="margin-left: 20px;" href="#">屋合之众的LOGO</a>
+            </div>
+             <div class="uk-navbar-right" style="margin-right: 20px;">
+                <ul class="uk-navbar-nav">
                     <li><a href="#">多人定制</a></li>
                 	<li><a href="#">在线咨询</a></li>
-                	<li><a href="#">技术支持</a></li> 
-                	<li>
-                        <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: plus"></a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li class="uk-nav-header">Header</li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li class="uk-nav-divider"></li>
-                                <li><a href="#">Item</a></li>
-                            </ul>
-                        </div>
-                    </li>
+                	<li><a href="#">技术支持</a></li>
+					<li>
+                		<a href="#" uk-icon="icon: more"></a>
+                		<div class="uk-navbar-dropdown">
+                   	 	<ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#">5-10 人定制</a></li>
+                        <li><a href="#">15 人以上定制</a></li>
+                        <li><a href="#">班级定制</a></li>
+                    	</ul>
+                		</div>
+           			</li>
                 </ul>
             </div>
+
         </nav>
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+		 	<div class="uk-navbar-center">
+		 	<ul uk-tab>
+    			<li><a href="#">产品1</a></li>
+    			<li><a href="#">产品2</a></li>
+    			<li><a href="#">产品3</a></li>
+    			<li><a href="#">产品4</a></li>
+    			<li><a href="#">产品5</a></li>
+			</ul>
+		 	</div>
+		 	<div class="uk-navbar-right" style="margin-right: 60px;">
+		 	<ul uk-tab>
+		 	 	<li><a href="#" class="uk-button uk-button-default uk-button-small"><span class="uk-icon " uk-icon="icon: cart"></span>　购物车</a></li>
+		 	 </ul>
+		 	</div>
+		</nav>
     	</div>
 	</div>
 	<!--头部结束-->
